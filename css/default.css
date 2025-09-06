@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* Ảnh nền của trang thứ 2 nếu bạn muốn thay đổi thì nó tại đây */
+    background-image: url("../img/9SHW2XH.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-family: "sans-serif", "sans-serif", sans-serif;
+    color: #ab4d4d;
+    overflow: auto;
+}
+a {
+    color: #00ff45;
+    font-size: 14px;
+    text-decoration: none;
+}
+#main {
+    width: 100%;
+}
+#wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+    height: 680px;
+    margin-top: 10px;
+}
+#text {
+    width: 400px;
+    height: 425px;
+    left: 60px;
+    /*top: 80px;*/
+    position: absolute;
+}
+#code {
+    margin-left: -50px;
+    display: none;
+    font-size: 25px;
+    font-weight: bold;
+    width: 520px;
+    color: #b71a6adb;
+    font-family: Courier New Courier;
+}
+#clock-box {
+    position: absolute;
+    margin-left: -20px;
+    top: 530px;
+  /*  font-size: 28px;*/
+/*    font-family: Courier New Courier;*/
+    display: none;
+}
+/*#clock-box a {
+    font-size: 28px;
+    text-decoration: none;
+}*/
+/*#clock {
+    margin-left: 48px;
+}*/
+#clock .digit {
+    font-size: 64px;
+}
+#canvas {
+    margin: 0 auto;
+    width: 1100px;
+    height: 680px;
+}
+#error {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    display: none;
+}
+.hand {
+    cursor: pointer;
+}
+.space {
+    margin-right: 60px;
+}
+#countdown {
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#countdown-timer span {
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    width: 50px;
+    margin: 0.5rem;
+    background-color: rgb(255 219 219);
+    border: 1px grey solid;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+#countdown-labels span{
+    font-family: 'Candara', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#content {
+    width: 520px;
+    margin-top: -140px;
+}
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+.emoji span {
+  font-size: 5rem;
+  padding: 0 .5rem;
+}
+@keyframes mymove {
+  from {left: -20px;}
+  to {left: 10px;}
+}
